@@ -14,5 +14,11 @@ According to Wikipedia, [modular programming](https://en.wikipedia.org/wiki/Modu
 
 3. The implementation of the module determines how the module interface is implemented.
 
-4. The division of the module into the interface and implementation is very beneficial for both the system user (client) and the implementing person (molue's provider).
+4. The division of the module into the interface and implementation is very beneficial for both the system user (client) and the implementing person (module's provider).
 
+## What is the legacy code?
+Legacy code means an old code with the following properties:
+    - It is at least 20 years old with the spaghetti code structure.
+    - It has no documentation or documentation is outdated and incomplete.
+    - Employees involved in building this system either no longer work in the company or are involved in other projects.
+    - There is no full information about how the system works and what there were the original assumptions of the system.
