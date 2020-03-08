@@ -22,3 +22,11 @@ Legacy code means an old code with the following properties:
 2. It has no documentation or documentation is outdated and incomplete.
 3. Employees involved in building this system either no longer work in the company or are involved in other projects
 4. There is no full information about how the system works and what there were the original assumptions of the system.
+
+
+## How to improve the quality of the code?
+
+1. We say that the quality of the code is high when the new functionality in the system can be implemented quickly, cheaply and without inctroducing errors in the current functionality.
+
+2. One (and maybe even the only) way to improve the quality of the legacy code is to divide the system into modules, i.e. execute code modularization.
+
