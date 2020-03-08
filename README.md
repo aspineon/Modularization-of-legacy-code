@@ -63,5 +63,16 @@ Legacy code means an old code with the following properties:
 8. Modularization usually removes many unnecessary dependencies between files introduced due to excessive inclusion of files using the #include pre-processor directive. Removing these unnecessary dependencies leads to shortening the compilation time and building the system.
 
 
+## What are the modularization's assumptions?
+
+1. The basic assumption of modularization is that the system after modularization and before modularization has identical functionality and interfaces in classes are not changed. It is only after modularization that steps are taken to change the code or re-factoring the code. The division of the modernization (reconstruction) of the code into two stages (where the first stage is modularization) allows to avoid introducing errors to a greater extent.
+    
+2. It is preferable that the modularized code be integrated with the [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration) system, which is used to build code and run tests.
+
+3. Modularization does not block the simultaneous development of the system.
+
+4. The modularization process is significantly impeded when global variables or singletons are used in the implementation, which introduce strict global dependencies between classes.
+
+
 
 
