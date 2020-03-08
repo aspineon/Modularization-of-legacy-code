@@ -30,3 +30,16 @@ Legacy code means an old code with the following properties:
 
 2. One (and maybe even the only) way to improve the quality of the legacy code is to divide the system into modules, i.e. execute code modularization.
 
+## What is the result of modularization?
+
+1. The effect of modularization is the division of the code into libraries that contain logically separate elements of the code.
+
+2. The resulting libraries may depend on each other or be independent.
+
+3. If libraries are treated as nodes in the graph, and the relationships between libraries are treated as edges in the graph, then the libraries after modularization form a directed dependency graph.
+
+4. The library system is easier to extend and maintain when the dependency graph does not have cycles.
+
+5. The cycle in the dependency graph is a sign of strong dependence between libraries. It is highly recommended to avoid cycles in dependency graph.
+
+
