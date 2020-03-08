@@ -74,5 +74,10 @@ Legacy code means an old code with the following properties:
 4. The modularization process is significantly impeded when global variables or singletons are used in the implementation, which introduce strict global dependencies between classes.
 
 
+## How is modularization carried out? 
 
+1. Modularization is carried out on the existing system, which means that the alternative version of the system is not built.
 
+2. The first stage of modularization is to define the most basic classes that will create a library (module). After creating the module, this module is turned on and used in the system.
+
+3. The next modularization steps involve selecting classes that only use modularized libraries and integrate them into the system. Thus, the system is transformed into a modularized systematic way.
