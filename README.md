@@ -81,3 +81,31 @@ Legacy code means an old code with the following properties:
 2. The first stage of modularization is to define the most basic classes that will create a library (module). After creating the module, this module is turned on and used in the system.
 
 3. The next modularization steps involve selecting classes that only use modularized libraries and integrate them into the system. Thus, the system is transformed into a modularized systematic way.
+
+## References
+
+1. M. Fowler "Refactoring: Improving the Design of Existing Code", 2018 
+
+1. A. Volkhover "Become an Awesome Software Architect: Book 1: Foundation", 2019
+
+1. J. F. F. Dooley "Software Development, Design and Coding: With Patterns, Debugging, Unit Testing, and Refactoring", 2017
+
+1. R. N. Taylor, N. Medvidovic, E. M. Dashofy  "Software Architecture: Foundations, Theory, and Practice", 2009
+
+1. R. C. Martin "Clean Code: A Handbook of Agile Software Craftsmanship", 2008
+
+1. K. Henney "97 Things Every Programmer Should Know: Collective Wisdom From The Experts", 2010
+
+1. R. S. Pressman, B. Maxim "Software Engineering: A Practitioner's Approach", 2014
+
+1. J. Humble, D. Farley "Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation", 2010
+
+1. P. Smith "Software Build Systems: Principles and Experience", 2011
+
+1. I. Crnkovic, M. Larsson "Building Reliable Component-Based Software Systems", 2002
+
+1. C. Szyperski "Component Software: Beyond Object-Oriented Programming" , 2002
+
+1. Kung-Kiu Lau "Component-Based Software Development: Case Studies", 2004
+
+1. M. Feathers "Working Effectively with Legacy Code", 2004
