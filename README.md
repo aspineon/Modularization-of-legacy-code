@@ -20,5 +20,5 @@ According to Wikipedia, [modular programming](https://en.wikipedia.org/wiki/Modu
 Legacy code means an old code with the following properties:
     - It is at least 20 years old with the spaghetti code structure.
     - It has no documentation or documentation is outdated and incomplete.
-    - Employees involved in building this system either no longer work in the company or are involved in other projects.
+    - Employees involved in building this system either no longer work in the company or are involved in other projects
     - There is no full information about how the system works and what there were the original assumptions of the system.
