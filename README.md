@@ -43,3 +43,25 @@ Legacy code means an old code with the following properties:
 5. The cycle in the dependency graph is a sign of strong dependence between libraries. It is highly recommended to avoid cycles in dependency graph.
 
 
+## What are the benefits of modularization?
+
+
+1. The code after modularization is much easier to maintain, because the modularization process divided the code into smaller (usually independent) parts, which are easier to analyze.
+
+2. After modularization it is easier to expand the code and implement new elements mainly due to the division of the code into libraries.
+
+3. After modularization it is easier to re-code the feature, because the process of dividing the code into libraries provides valuable information about the dependencies in the code, which is a great help when making decisions about making changes in the code.
+
+4. After modularization, the cost of implementing a new employee is reduced. Reducing the cost is due to reducing the time needed for a new employee to familiarize yourself with the system.
+
+5. Modularization divides the system into parts, thereby allowing the system to be sold in parts.
+
+6. Modularization allows to divide a group of programmers who maintain the entire system into teams dealing with dedicated libraries. The division of the group of programmers into teams is beneficial, because it allows to deepen the knowledge about the selected library and thus create competences directed to the given field.
+    
+7. Modularization allows the focusing of tests within the library, thus facilitating the maintenance of tests and decreasing the cost.
+
+8. Modularization usually removes many unnecessary dependencies between files introduced due to excessive inclusion of files using the #include pre-processor directive. Removing these unnecessary dependencies leads to shortening the compilation time and building the system.
+
+
+
+
